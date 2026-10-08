@@ -1,0 +1,33 @@
+{
+  "name": "dilmurodzk/yii2-jwt",
+  "description": "JWT component and HTTP Bearer auth filter for Yii2, based on lcobucci/jwt",
+  "type": "yii2-extension",
+  "keywords": ["jwt", "yii2", "yii 2", "auth"],
+  "homepage": "https://github.com/DilmurodZK/yii2-jwt",
+  "authors": [
+    {
+      "name": "DilmurodZK"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "yiisoft/yii2": "~2.0.14",
+    "lcobucci/jwt": "^4.3 || ^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dilmurodzk\\jwt\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
